@@ -1,0 +1,49 @@
+{
+    "description": "Arduino library for the HX711 24-bit ADC for weight scales", 
+    "repository": {
+        "url": "https://github.com/olkal/HX711_ADC", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "atmelavr", 
+        "atmelsam", 
+        "espressif32", 
+        "espressif8266", 
+        "intel_arc32", 
+        "microchippic32", 
+        "nordicnrf51", 
+        "nordicnrf52", 
+        "ststm32", 
+        "teensy", 
+        "timsp430"
+    ], 
+    "export": {
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ], 
+        "include": null
+    }, 
+    "authors": [
+        {
+            "maintainer": true, 
+            "name": "Olav Kallhovd", 
+            "url": null, 
+            "email": null
+        }
+    ], 
+    "keywords": [
+        "sensors"
+    ], 
+    "id": 1900, 
+    "name": "HX711_ADC", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "1.0.2", 
+    "homepage": null
+}
